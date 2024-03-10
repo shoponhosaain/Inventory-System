@@ -1,0 +1,18 @@
+[
+    {
+        "catgeoryId": "1",
+        "category" : "pant"
+    },
+    {
+        "catgeoryId": "2",
+        "category" : "watches"
+    },
+    {
+        "catgeoryId": "3",
+        "category" : "pant"
+    },
+    {
+        "catgeoryId": "4",
+        "category" : "shirt"
+    }
+]

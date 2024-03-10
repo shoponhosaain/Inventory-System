@@ -1,0 +1,27 @@
+[
+    {
+        "productName" : "Product 1 ",
+        "orderId" : "1",
+        "customerPhone" : "01642956206",
+        "quantity" : "4",
+        "customerName" : "md mamun",
+        "total" : "3453",
+        "date" : "2/8/2024",
+        "productId" : "1",
+        "salemanId" : "1",
+        "paymentStatus" : "1",
+        "due": "0"
+    },{
+        "productName" : "Product 2",
+        "orderId" : "2",
+        "customerPhone" : "01642956206",
+        "quantity" : "4",
+        "customerName" : "md mamun",
+        "total" : "3453",
+        "date" : "3/5/2024",
+        "productId" : "2",
+        "salemanId" : "2",
+        "paymentStatus" : "0",
+        "due": "400"
+    }
+]

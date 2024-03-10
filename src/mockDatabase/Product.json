@@ -1,0 +1,49 @@
+[
+    {
+        "productId" : "1",
+        "productName": "lorem ipsom",
+        "price" : "50",
+        "stock" : "30",
+        "uploadDate" : "3/8/2024",
+        "category" : "shirt"
+    },
+    {
+        "productId" : "2",
+        "productName": "lorem ipsom",
+        "price" : "50",
+        "stock" : "30",
+        "uploadDate" : "3/8/2024",
+        "category" : "pant"
+    },
+    {
+        "productId" : "3",
+        "productName": "lorem ipsom",
+        "price" : "50",
+        "stock" : "30",
+        "uploadDate" : "3/8/2024",
+        "category" : "watches"
+    }
+    ,
+    {
+        "productId" : "4",
+        "productName": "lorem ipsom",
+        "price" : "50",
+        "stock" : "30",
+        "uploadDate" : "3/8/2024",
+        "category" : "shirt"
+    }, {
+        "productId" : "5",
+        "productName": "lorem ipsom",
+        "price" : "50",
+        "stock" : "30",
+        "uploadDate" : "3/8/2024",
+        "category" : "shirt"
+    }, {
+        "productId" : "6",
+        "productName": "lorem ipsom",
+        "price" : "50",
+        "stock" : "30",
+        "uploadDate" : "3/8/2024",
+        "category" : "shirt"
+    }
+]

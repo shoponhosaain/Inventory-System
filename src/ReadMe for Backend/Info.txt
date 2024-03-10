@@ -1,0 +1,29 @@
+Location Where data will be fetch
+
+1 context folder Auth context
+
+2 fetch data in user/dashboard.js components passed by props
+
+3 fecth 2 data pass in the components in workpasce user/workpasce.js
+
+3 order data stored in same variables in components/checkOut you get that data and upload in order table(the value is printed in bellow paragraph tags)
+
+4 you have to fecth data in Components/due/duelist.js and if i click paid the due will be paid (the data will be fetch by paiment statust value 1 and calculate total due) 
+
+
+(Admin)
+1 fetch admin data in context
+2 fech data in admin dashboard
+3 retriev data from Admin/addemployee.js
+4 fecth data in order in All Orders pass data from props Admin/All Orders.js
+5 fecth data in stock details Admin/stock.js
+6 fecth data in Profite details Admin/profit.js
+7 fetch data in Admin/AddProduct.js
+8 uplaod product data from Upload Product
+9 Uplaod category from Admin/Upload Catrgory.js
+
+(additional)
+
+1 add product count in boilerPagination.js
+2 add data in dashboards
+(delete product from deiffrent components)

@@ -1,0 +1,276 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-family: sans-serif, serif;
+  transition: all 0.2s linear;
+}
+input:focus {
+  outline: none;
+}
+
+body {
+  background-color: #f7f8fa !important;
+}
+/* colors */
+.prime-color {
+  color: #1044ff;
+}
+.prime-bg {
+  background-color: #1044ff !important;
+}
+.prime-light {
+  color: #e6f0ff;
+}
+.prime-light-bg {
+  background-color: #e6f0ff;
+}
+
+.orange {
+  color: #db6905;
+}
+.orange-light {
+  color: #fffaeb;
+}
+.orange-light-bg {
+  background-color: #fffaeb;
+}
+
+.red {
+  color: #b5261b !important;
+}
+.red-bg {
+  background-color: #b5261b !important;
+}
+.red-light-bg {
+  background-color: #fef3f2;
+}
+.red-light {
+  color: #fef3f2;
+}
+.white{
+  color: #ffff !important;
+}
+
+/* colors ends */
+
+/* text*/
+.text-xxxl {
+  font-size: 52px;
+}
+.text-xxl {
+  font-size: 32px;
+}
+.text-xl {
+  font-size: 24px;
+}
+.text-md {
+  font-size: 18px;
+}
+.text-sm {
+  font-size: 16px;
+}
+.text-vsm {
+  font-size: 14px;
+}
+.text-vvsm {
+  font-size: 12px;
+}
+.text-vvvsm {
+  font-size: 10px;
+}
+.font-bolt {
+  font-weight: bold !important;
+}
+.radius {
+  border-radius: 0.7rem;
+}
+.radius-sm {
+  border-radius: 0.3rem;
+}
+.border-none{
+  border: none !important;
+}
+/* text ends*/
+/* buttons */
+.button-nav {
+  font-size: 16px;
+  font-weight: 600;
+  padding: 0.7rem 1.5rem;
+  background-color: #fff;
+  cursor: pointer;
+  z-index: 100;
+  border-radius: 0.3rem;
+
+  color: black;
+  border: none;
+}
+.button-nav:hover {
+  padding: 0.7rem 1.5rem;
+  background: #1044ff;
+  color: white;
+}
+.logout-btn {
+  padding: 0.5rem 1rem;
+  background: #1044ff;
+  font-weight: 600;
+  z-index: 100;
+  border-radius: 0.3rem;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+}
+.logout-btn:hover{
+  padding: 0.5rem 1rem;
+  background: #102c90;
+  font-weight: 600;
+  z-index: 100;
+  border-radius: 0.3rem;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+}
+.view-btn {
+  padding: 0.5rem 1rem;
+  background: #1044ff;
+  font-weight: 600;
+  z-index: 100;
+  border-radius: 0.3rem;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+}
+.view-btn:hover{
+  padding: 0.5rem 1rem;
+  background: #1e3ba4;
+  font-weight: 600;
+  z-index: 100;
+  border-radius: 0.3rem;
+  font-size: 14px;
+  color: #fff;
+  border: none;
+}
+/* buttons ends*/
+
+/* height width */
+.width-100 {
+  width: 100%;
+}
+.width-75 {
+  width: 75%;
+}
+.width-50 {
+  width: 50%;
+}
+.width-25 {
+    width: 25%;
+  }
+.width-auto{
+    width: auto;
+}
+
+.height-100 {
+    height: 100%;
+  }
+  .height-75 {
+    height: 75%;
+  }
+  .height-50 {
+    height: 50%;
+  }
+  .height-25 {
+    height: 25%;
+    }
+  .width-auto{
+    height: auto;
+  }
+/* height width */
+
+.info{
+    height: 100%;
+    padding-top: 2rem;
+}
+.email{
+    padding-bottom: 2rem;
+}
+
+/* table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    white-space: nowrap; /* prevent text wrapping */
+    overflow: hidden; /* hide overflowed text */
+    text-overflow: ellipsis; /* truncate text with ellipsis */
+}
+
+table-2 th, td {
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap; /* prevent text wrapping */
+  overflow: hidden; /* hide overflowed text */
+  text-overflow: ellipsis; /* truncate text with ellipsis */
+}
+
+
+/* table */
+.truncate {
+  max-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.table td {
+  padding: 20px;
+}
+/* table */
+
+/* active */
+.active{
+  background-color: #1044ff;
+  color: white;
+}
+/* active */
+
+
+/* catgeory btn */
+.active-category-btn{
+  padding: .7rem 0;
+  display: block;
+  width: 100%;
+  background: #1044ff;
+}
+.category-btn{
+  padding: .7rem 0;
+  display: block;
+  width: 100%;
+  background: #f7f8fa;
+  color: black !important;
+  font-weight: 500 !important;
+}
+.category-btn:hover{
+  padding: .7rem 0;
+  display: block;
+  width: 100%;
+  color: white !important;
+  background: #1044ff;
+  font-weight: 500 !important;
+}
+
+/* cagegory btn */
+
+/* login form */
+.login-form{
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, 30%);
+  margin-top: 0;
+}
+/* login form */
+
